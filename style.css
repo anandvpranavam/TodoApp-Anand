@@ -12,13 +12,13 @@ body{
     padding: 5px;
     width: 400px;
     height: 600px;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     justify-content: center;
     align-items: center;
 }
 .title{
     display: flex;
-    outline: 2px solid rgb(240, 240, 32);
+    /* outline: 2px solid rgb(240, 240, 32); */
     width: 390px;
     min-height: 100px;
     padding: 20px 10px;
@@ -27,7 +27,7 @@ body{
     align-items: center;
 }
 .input-todo{
-    display: flex;
+    /* display: flex; */
     height: 40px;
     width: 370px;
     margin: 5px;
@@ -38,41 +38,115 @@ body{
     /* text-align: center; */
     /* width: 100%; */
     overflow: auto;
+    background-color: rgb(221, 255, 255);
+    border: none;
 }
 .add-todo-item{
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     margin: 5px;
+    position: relative;
     min-height: 50px;
     overflow: auto;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(221, 255, 255);
+    box-shadow: 1px 1px 8px rgb(167, 165, 165);
+    /* display: block; */
     
 }
-.add-todo-item i{
-    /* position: absolute; */
+button{
+    position: absolute;
+    /* outline: 1px solid black; */
+    border: none;
+    border-radius: 50%;
     display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(221, 255, 255);
+    box-shadow: 1px 1px 6px rgb(155, 155, 155);
+    text-align: center;
     align-items: center;
     justify-content: center;
-    width: 20px;
-    height: 20px;
+}
+
+.todo-item1 .delete-button{
+    position: absolute;
+    top: 5px;
+    right:10px;
+}
+.todo-item .delete-button{
+    position: absolute;
+    top: 5px;
+    right:10px;
+}
+.todo-item1 .edit-button{
+    position: absolute;
+    top: 5px;
+    right:45px;
+}
+.todo-item .edit-button{
+    position: absolute;
+    top: 5px;
+    right:45px;
 }
 /* .icon {
     padding: 10px;
     min-width: 40px;
 } */
 .todo-item{
-    outline: 2px solid red;
-    margin: 5px;
+    /* outline: 2px solid red; */
+    margin: 15px 5px ;
     min-height: 40px;
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 8px rgb(160, 159, 159);
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(221, 238, 255);
+    position: relative;
+}
+.todo-item1{
+    /* outline: 2px solid red; */
+    margin: 15px 5px;
+    min-height: 40px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 8px rgb(160, 159, 159);
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(221, 238, 255);
+    position: relative;
+
+
+}
+#todo1{
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    /* justify-content: center; */
+}
+label{
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    /* justify-content: center; */
+
 }
 .added-todos{
-    outline: 2px solid purple;
-    margin: 5px;
+    /* outline: 2px solid purple; */
+    margin: 30px 5px;
     min-height: 50px;
     overflow: auto;
 }
 .todos-area{
     display: block;
-    outline: 2px solid black;
+    /* outline: 2px solid black; */
     margin: 5px auto;
     min-height: 300px;
     overflow: auto;
