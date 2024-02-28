@@ -26,7 +26,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.input-todo{
+#input-todo{
     /* display: flex; */
     height: 40px;
     width: 370px;
@@ -144,7 +144,7 @@ label{
     min-height: 50px;
     overflow: auto;
 }
-.todos-area{
+#myForm{
     display: block;
     /* outline: 2px solid black; */
     margin: 5px auto;
